@@ -1,5 +1,5 @@
 all:
-	docker build -t agrdocker/agr_elasticsearch_env .
+	docker build --no-cache -t agrdocker/agr_elasticsearch_env .
 
 push:
 	docker push agrdocker/agr_elasticsearch_env
