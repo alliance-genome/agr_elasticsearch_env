@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.9.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.13.3
 
 ADD elasticsearch.yml /usr/share/elasticsearch/config/
 USER root
