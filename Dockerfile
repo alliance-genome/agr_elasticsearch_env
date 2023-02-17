@@ -5,3 +5,4 @@ USER root
 RUN chown elasticsearch:elasticsearch /usr/share/elasticsearch/config/elasticsearch.yml
 USER elasticsearch
 RUN ./bin/elasticsearch-plugin install -s --batch repository-s3
+RUN ./bin/elasticsearch-plugin install -s --batch mapper-size
