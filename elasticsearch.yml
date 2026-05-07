@@ -6,5 +6,6 @@ xpack.security.enabled: false
 ingest.geoip.downloader.enabled: false
 indexing_pressure.memory.limit: "20%"
 indices.memory.index_buffer_size: "25%"
+search.max_open_scroll_context: 1500
 #bootstrap.memory_lock: true
 #thread_pool.listener.queue_size: 10000
